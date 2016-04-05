@@ -9,16 +9,18 @@ Perro::Perro() {
 Perro::~Perro() {
 }
 
-void Perro::setNombre(char *) {
+void Perro::setNombre(char * nombre) {
+	this->nombre = nombre;
 }
 
-void Perro::setRaza(char *) {
+void Perro::setRaza(char * raza) {
+	this->raza = raza;
 }
 
 char * Perro::getNombre() {
-	return nullptr;
+	return nombre;
 }
 
 char * Perro::getRaza() {
-	return nullptr;
+	return raza;
 }

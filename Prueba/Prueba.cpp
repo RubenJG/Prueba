@@ -11,16 +11,16 @@ int main()
 
 	cout << "Hola Mundo!" << endl;
 
-	Gato g;
+	// Gato g;
 	Perro p;
 
-	g.setNombre("Max");
-	g.setEdad(15);
+	// g.setNombre("Max");
+	// g.setEdad(15);
 
 	p.setNombre("MaxMaxPower");
 	p.setRaza("Labrador");
 
-	cout << "Gato: " << g.getNombre() << " " << g.getEdad();
+	// cout << "Gato: " << g.getNombre() << " " << g.getEdad();
 	cout << "Perro: " << p.getNombre() << " " << p.getRaza();
 
 	return 0;
