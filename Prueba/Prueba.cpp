@@ -9,7 +9,6 @@ using namespace std;
 int main()
 {
 
-	cout << "Hola Mundo!" << endl;
 
 	Gato g;
 	Perro p;
@@ -17,11 +16,11 @@ int main()
 	g.setNombre("Max");
 	g.setEdad(15);
 
-	p.setNombre("MaxMaxPower");
-	p.setRaza("Labrador");
+	// p.setNombre("MaxMaxPower");
+	// p.setRaza("Labrador");
 
-	cout << "Gato: " << g.getNombre() << " " << g.getEdad();
-	cout << "Perro: " << p.getNombre() << " " << p.getRaza();
+	cout << "Gato: " << g.getNombre() << " " << g.getEdad() << endl;
+	// cout << "Perro: " << p.getNombre() << " " << p.getRaza() << endl;
 
 	return 0;
 }

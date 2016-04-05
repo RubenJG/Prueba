@@ -9,16 +9,18 @@ Gato::Gato() {
 Gato::~Gato() {
 }
 
-void Gato::setNombre(char *) {
+void Gato::setNombre(char * nombre) {
+	this->nombre = nombre;
 }
 
-void Gato::setEdad(int) {
+void Gato::setEdad(int edad) {
+	this->edad = edad;
 }
 
 char * Gato::getNombre() {
-	return nullptr;
+	return nombre;
 }
 
 int Gato::getEdad() {
-	return 0;
+	return edad;
 }
